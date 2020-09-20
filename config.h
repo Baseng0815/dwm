@@ -6,7 +6,7 @@ static const unsigned int gappx     = 7;        /* gap pixel between windows */
 static const unsigned int snap      = 32;       /* snap pixel */
 static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
-static const char *fonts[]          = { "Source Code Pro:size=14", "Twemoji:pixelsize=14:antialias=true:autohint=true" };
+static const char *fonts[]          = { "Source Code Pro:size=14", "JoyPixels:pixelsize=14:antialias=true:autohint=true" };
 static const char dmenufont[]       = "Source Code Pro:size=10";
 static const char col_gray1[]       = "#222222";
 static const char col_gray2[]       = "#444444";
