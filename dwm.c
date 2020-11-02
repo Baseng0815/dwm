@@ -439,9 +439,6 @@ attachstack(Client *c)
     void
 swallow(Client *p, Client *c)
 {
-    // disable swallowing
-    return;
-
     if (c->noswallow || c->isterminal)
         return;
     if (c->noswallow && c->isfloating)
