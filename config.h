@@ -72,7 +72,8 @@ static const char *termcmd[]  = { "st", NULL };
 
 static Key keys[] = {
 	/* modifier                     key        function        argument */
-	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
+        /* do this in .xbindkeysrc */
+	/* { MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } }, */
 	{ MODKEY,                       XK_b,      togglebar,      {0} },
 	{ MODKEY,                       XK_j,      focusstack,     {.i = +1 } },
 	{ MODKEY,                       XK_k,      focusstack,     {.i = -1 } },
@@ -92,7 +93,8 @@ static Key keys[] = {
 	{ MODKEY|ShiftMask,             XK_0,      tag,            {.ui = ~0 } },
 
 	{ MODKEY,                       XK_Return, zoom,           {0} },
-	{ MODKEY|ShiftMask,             XK_Return, spawn,          { .v = termcmd} },
+        /* do this in .xbindkeysrc */
+	/* { MODKEY|ShiftMask,             XK_Return, spawn,          { .v = termcmd} }, */
 	{ MODKEY,                       XK_w, 	   killclient,     {0} },
 
 	/* { MODKEY|ShiftMask,             XK_Return, spawn,          {.v = termcmd } }, */
