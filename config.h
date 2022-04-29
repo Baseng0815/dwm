@@ -31,7 +31,7 @@ static const Rule rules[] = {
 	/* class            instance  title           tags mask  isfloating  isterminal  noswallow  monitor */
 	{ "Gimp",           NULL,     NULL,           0,         1,          0,           0,        -1 },
 	{ "spotify",        NULL,     NULL,           1 << 8,    0,          0,           0,        -1 },
-	{ "st",             NULL,     NULL,           0,         0,          1,           0,        -1 },
+	{ "St",             NULL,     NULL,           0,         0,          1,           0,        -1 },
 	{ "a.out",          NULL,     NULL,           0,         0,          0,           1,        -1 },
 	{ "VoxelGame",      NULL,     "VoxelGame",    0,         0,          0,           1,        -1 },
 	{ "Unity",          NULL,     NULL,           0,         1,          0,           0,        -1 },
