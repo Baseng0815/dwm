@@ -96,6 +96,7 @@ static Key keys[] = {
         /* do this in .xbindkeysrc */
 	/* { MODKEY|ShiftMask,             XK_Return, spawn,          { .v = termcmd} }, */
 	{ MODKEY,                       XK_w, 	   killclient,     {0} },
+	{ MODKEY,                       XK_c,      compactclients,      {0} },
 
 	TAGKEYS(                        XK_1,                      0)
 	TAGKEYS(                        XK_2,                      1)
